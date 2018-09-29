@@ -1,4 +1,7 @@
 function FindProxyForURL(url, host) {
+	
+	console.log(123131231);
+	
 	if (Math.random() > 0.5) {
 		proxy = 'PROXY 165.225.131.153:80; PROXY 165.225.130.193:80';
 	} else {
